@@ -1,0 +1,74 @@
+body {
+    font-family:'arial';
+    margin: 18px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #007BFF;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#data {
+    margin-top: 20px;
+}
+
+.recipe {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 8px 16px;
+    margin-top: 10px;
+}
+
+.modal-content {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.modal-header {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-body,
+.modal-footer {
+    padding: 10px;
+}
+
+.modal-footer button {
+    margin-right: 5px;
+}
+
+.btn-primary {
+    background-color: #1168c5;
+    color: #fff;
+    border: 1px solid #007BFF;
+}
+
+.btn-danger {
+    background-color: #c7525e;
+    color: #fff;
+    border: 1px solid #dc3545;
+}
+
+.btn-info {
+    background-color: #1a8c9e;
+    color: #fff;
+    border: 1px solid #17a2b8;
+}
